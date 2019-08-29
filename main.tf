@@ -12,17 +12,17 @@ variable "gcp_project" {
 
 variable "gcp_region" {
   description = "GCP region, e.g. us-east1"
-  default = "us-east1"
+  default = "us-west1"
 }
 
 variable "gcp_zone" {
   description = "GCP zone, e.g. us-east1-a"
-  default = "us-east1-b"
+  default = "us-west1-b"
 }
 
 variable "machine_type" {
   description = "GCP machine type"
-  default = "n1-standard-1"
+  default = "n1-standard-1" # Must be n1-standard-1 at start of demo
 }
 
 variable "instance_name" {
