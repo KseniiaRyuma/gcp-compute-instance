@@ -45,7 +45,7 @@ resource "google_compute_instance" "demo" {
   name         = "${var.instance_name}"
   machine_type = "${var.machine_type}"
   zone         = "${var.gcp_zone}"
-
+  allow_stopping_for_update= true
   boot_disk {
     initialize_params {
       image = "${var.image}"
