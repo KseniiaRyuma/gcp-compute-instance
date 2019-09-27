@@ -16,7 +16,7 @@ variable "gcp_region" {
 }
 
 variable "gcp_zone" {
-  description = "GCP zone, e.g. us-east1-a"
+  description = "GCP zone, e.g. us-east1-a or us-west1-b"
   default     = "us-west1-b"
 }
 
