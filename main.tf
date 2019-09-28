@@ -22,7 +22,7 @@ variable "gcp_zone" {
 
 variable "machine_type" {
   description = "GCP machine type"
-  default     = "n1-standard-1" # Must be n1-standard-1 or g1-small at start of demo
+  default     = "g1-small" # Must be n1-standard-1 or g1-small at start of demo
 }
 
 variable "instance_name" {
